@@ -1,0 +1,76 @@
+.enrollment_banner{
+    width: 100%;
+    padding: 20px 10%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.banner{
+    width: 80%;
+    padding: 25px;
+    background-image: linear-gradient(300deg, rgb(112, 169, 248), rgb(212, 144, 251), rgb(225, 115, 225));
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.left_side{
+    width: 38%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.left_side h2{
+    color: white;
+}
+.left_text{
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: white;
+}
+.enroll_btn a{
+    padding: 10px 15px;
+    background-color: black;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.right_side{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+}
+.right_text{
+    display: flex;
+    flex-direction: column;
+    row-gap: 4px;
+    color: white;
+}
+@media screen and (max-width: 800px) {
+    .enrollment_banner{
+        width: auto;
+    }
+    .banner{
+        width: 100%;
+    }
+    
+}
+@media screen and (max-width: 600px) {
+    .left_side{
+        width: 100%;
+    }
+    .banner{
+        flex-direction: column;
+        row-gap: 40px;
+    }
+    .right_side{
+        width: 100%;
+    }
+}

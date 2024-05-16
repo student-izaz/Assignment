@@ -1,0 +1,28 @@
+nav{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 10%;
+    background-color: rgb(48, 48, 48);
+}
+.mainLinks ul{
+    display: flex;
+    align-items: center;
+    column-gap: 40px;
+}
+
+.mainLinks ul li a{
+    color: rgb(154, 153, 153);
+    font-size: 15px;
+}
+
+/* Media Query for Mobile Device */
+@media screen and (max-width: 480px) {
+    .mainLinks ul{
+        column-gap: 20px;
+    }
+    .mainLinks ul li a{
+        font-size: 13px;
+    }
+}

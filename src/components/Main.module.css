@@ -1,0 +1,85 @@
+a{
+    color: rgb(48, 48, 48);
+}
+main{
+    padding: 20px 10%;
+    height: 450px ;
+}
+.mainContent{
+    width: 50%;
+    height: 100%;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.rndBtn a{
+    padding: 10px;
+    border: 2px solid rgb(241, 176, 24);
+    border-radius: 10px;
+    font-size: 14px;
+}
+.main_text{
+    font-size: 40px;
+    font-weight: 700;
+    color:  rgb(92, 91, 91);
+    margin-top: 10px;
+}
+.main_small_text{
+    font-size: 15px;
+}
+.main_badges{
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+}
+.badge{
+    padding: 6px 12px;
+    border-radius: 20px;
+    background: rgb(248, 234, 201);
+    color: rgb(136, 39, 7);
+}
+.btns{
+    font-size: 12px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+.enroll_btn{
+        padding: 10px;
+        border-radius: 6px;
+        background-color: rgb(184, 7, 160);
+        color: #fff;
+}
+.know_more_btn{
+    color: rgb(184, 7, 160);
+}
+
+
+
+@media screen and (max-width: 480px) {
+    main{
+        height: auto;
+        padding: 10px 6%;
+    }
+    .mainContent{
+        width: 100%;
+        row-gap: 10px;
+    }
+    .main_text{
+        font-size: 35px;
+    }
+    
+}
+
+@media screen and (max-width: 800px) {
+    main{
+        padding: 10px 6%;
+    }
+    .mainContent{
+        width: 100%;
+        row-gap: 10px;
+    }
+    
+}

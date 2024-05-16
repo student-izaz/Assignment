@@ -1,0 +1,31 @@
+header{
+    height: 60px;
+    padding: 10px 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    font-size: 18px;
+    font-weight: 600;
+}
+.authBtn{
+    display: flex;
+    align-items: center;
+    column-gap: 25px;
+}
+.primaryBtn a{
+    padding: 10px;
+    border-radius: 6px;
+    background-color: rgb(184, 7, 160);
+    color: #fff;
+}
+.secondaryBtn a{
+    color: rgb(184, 7, 160);
+}
+
+@media screen and (max-width: 420px) {
+    header{
+        padding: 10px 5%;
+    }
+}

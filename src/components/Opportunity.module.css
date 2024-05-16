@@ -1,0 +1,137 @@
+.opportunity{
+    height: 760px;
+    padding: 50px 10%;
+}
+.opportunity_content{
+    height: 100%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 30px;
+}
+.heading h1{
+    font-size: 30px;
+    font-weight: 600;
+    color: rgb(92, 91, 91);
+    text-align: center;
+    line-height: 40px;
+    align-items: center;
+}
+.seats_left_banner{
+    height: 135px;
+    width: 35%;
+    background-color: rgb(132, 6, 199);
+    border-radius: 15px;
+    padding: 10px;
+}
+.offer_banner{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.banner_heading h2{
+    color: #fff;
+}
+.seat_left{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+}
+.seat_left .text{
+    color: rgb(234, 197, 232);
+    font-size: 15px;
+}
+.range{
+    width: 100%;
+}
+.offer_time p{
+    color: white;
+}
+.heading h2{
+color: rgb(58, 4, 43);
+font-weight: 600;
+}
+.steps_row{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.step_col{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    align-items: center;
+}
+.step{
+    width: 80px;
+    text-align: center;
+    padding: 5px 10px;
+    background-color: rgb(145, 7, 126);
+    color: white;
+    border-radius: 0 100px 100px 0;
+}
+.step_card{
+    width: 350px;
+    height: 220px;
+    border: 1px solid rgb(239, 207, 244);
+    background-color: rgb(252, 245, 255);
+    padding: 20px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.card_heading{
+    color: rgb(145, 7, 126);
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+}
+.step_btm_txt{
+    font-size: 15px;
+    font-weight: 400;
+    color: rgb(92, 91, 91);
+}
+.card_text{
+    padding: 15px 10px;
+    border: 1px solid rgb(173, 168, 168);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    column-gap: 4px;
+}
+
+@media screen and (max-width: 800px) {
+    .opportunity{
+        height: auto;
+    }
+    .seats_left_banner{
+        width: 80%;
+    }
+    .step_card{
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .seats_left_banner{
+        width: 95%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .opportunity{
+        height: auto;
+    }
+    .steps_row{
+        row-gap: 25px;
+    }
+}
+
